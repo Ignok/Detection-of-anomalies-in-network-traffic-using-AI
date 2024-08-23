@@ -1,0 +1,19 @@
+Final Model Accuracy: 0.7308336977117038
+Classification Report:
+                precision    recall  f1-score   support
+
+      Analysis       0.00      0.00      0.00       677
+      Backdoor       0.18      0.04      0.06       583
+           DoS       0.50      0.04      0.07      4089
+      Exploits       0.52      0.92      0.67     11132
+       Fuzzers       0.23      0.49      0.31      6062
+       Generic       1.00      0.96      0.98     18871
+        Normal       0.97      0.69      0.81     37000
+Reconnaissance       0.74      0.83      0.78      3496
+     Shellcode       0.30      0.53      0.38       378
+         Worms       0.44      0.09      0.15        44
+
+      accuracy                           0.73     82332
+     macro avg       0.49      0.46      0.42     82332
+  weighted avg       0.81      0.73      0.74     82332
+

@@ -1,0 +1,6 @@
+encoding_dim: 16, Accuracy: 0.8210294903561192
+encoding_dim: 32, Accuracy: 0.8770830296846912
+encoding_dim: 64, Accuracy: 0.8584025652237283
+encoding_dim: 128, Accuracy: 0.8556575814992955
+encoding_dim: 256, Accuracy: 0.8596535976291114
+Best encoding_dim: 32, Best Accuracy: 0.8770830296846912

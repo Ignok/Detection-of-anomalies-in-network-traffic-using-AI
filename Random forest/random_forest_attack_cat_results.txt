@@ -1,0 +1,48 @@
+Random Forest with default parameters:
+Accuracy: 0.75
+Precision: 0.84
+Recall: 0.75
+F1 Score: 0.78
+
+                precision    recall  f1-score   support
+
+      Analysis       0.01      0.02      0.01       677
+      Backdoor       0.01      0.07      0.02       583
+           DoS       0.64      0.09      0.16      4089
+      Exploits       0.62      0.79      0.69     11132
+       Fuzzers       0.30      0.60      0.40      6062
+       Generic       1.00      0.97      0.98     18871
+        Normal       0.96      0.76      0.85     37000
+Reconnaissance       0.93      0.80      0.86      3496
+     Shellcode       0.42      0.66      0.52       378
+         Worms       0.40      0.05      0.08        44
+
+      accuracy                           0.75     82332
+     macro avg       0.53      0.48      0.46     82332
+  weighted avg       0.84      0.75      0.78     82332
+
+
+Random Forest with optimized parameters:
+Best Parameters: {'bootstrap': True, 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+Accuracy: 0.77
+Precision: 0.84
+Recall: 0.77
+F1 Score: 0.77
+
+                precision    recall  f1-score   support
+
+      Analysis       0.01      0.01      0.01       677
+      Backdoor       0.08      0.06      0.07       583
+           DoS       0.86      0.05      0.10      4089
+      Exploits       0.56      0.92      0.70     11132
+       Fuzzers       0.29      0.59      0.39      6062
+       Generic       1.00      0.96      0.98     18871
+        Normal       0.97      0.75      0.84     37000
+Reconnaissance       0.88      0.79      0.84      3496
+     Shellcode       0.45      0.66      0.53       378
+         Worms       1.00      0.02      0.04        44
+
+      accuracy                           0.77     82332
+     macro avg       0.61      0.48      0.45     82332
+  weighted avg       0.84      0.77      0.77     82332
+

@@ -1,0 +1,13 @@
+Best parameters: {'n_layers': 2, 'optimizer': 'adam', 'activation': 'relu', 'neurons': 71, 'dropout_rate': 0.35060362697770936}
+Best accuracy: 0.8929334888014381
+Final Model Accuracy: 0.8644755380653938
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.72      0.83     37000
+           1       0.81      0.98      0.89     45332
+
+    accuracy                           0.86     82332
+   macro avg       0.89      0.85      0.86     82332
+weighted avg       0.88      0.86      0.86     82332
+

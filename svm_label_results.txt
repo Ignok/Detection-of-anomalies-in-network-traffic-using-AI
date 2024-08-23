@@ -1,0 +1,15 @@
+SVM with default parameters:
+Accuracy: 0.82
+Precision: 0.75
+Recall: 0.99
+F1 Score: 0.86
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.60      0.75     37000
+           1       0.75      0.99      0.86     45332
+
+    accuracy                           0.82     82332
+   macro avg       0.87      0.80      0.80     82332
+weighted avg       0.86      0.82      0.81     82332
+

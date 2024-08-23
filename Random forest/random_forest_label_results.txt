@@ -1,0 +1,32 @@
+Random Forest with default parameters:
+Accuracy: 0.87
+Precision: 0.82
+Recall: 0.98
+F1 Score: 0.89
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.73      0.84     37000
+           1       0.82      0.98      0.89     45332
+
+    accuracy                           0.87     82332
+   macro avg       0.90      0.86      0.86     82332
+weighted avg       0.89      0.87      0.87     82332
+
+
+Random Forest with optimized parameters:
+Best Parameters: {'bootstrap': False, 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 50}
+Accuracy: 0.81
+Precision: 0.75
+Recall: 1.00
+F1 Score: 0.86
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.59      0.74     37000
+           1       0.75      1.00      0.86     45332
+
+    accuracy                           0.81     82332
+   macro avg       0.87      0.79      0.80     82332
+weighted avg       0.86      0.81      0.80     82332
+

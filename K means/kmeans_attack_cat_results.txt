@@ -1,0 +1,8 @@
+KMeans with default parameters:
+Silhouette Score: 0.1702462474773612
+Adjusted Rand Index: 0.13171564213140197
+
+KMeans with optimized parameters:
+Best Number of Clusters: 19
+Best Silhouette Score: 0.28764986148115257
+Adjusted Rand Index with best k: 0.3297598728048983
